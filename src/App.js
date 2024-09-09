@@ -39,8 +39,8 @@ const App = () => {
   }, []);
 
   const checkValidLocation = (latitude, longitude) => {
-    const validLatitude = [17.4257427, 17.4401427];
-    const validLongitude = [78.5111404, 78.5261404];
+    const validLatitude = [17.4566, 17.473];
+    const validLongitude = [78.337201, 78.353601];
 
     console.log(latitude, longitude);
     setIsInValidLocation(

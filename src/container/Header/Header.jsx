@@ -35,9 +35,6 @@ const Header = ({ isInValidLocation }) => {
               Enjoy our complimentary snacks and beverages, thoughtfully curated
               for your refreshments.
             </p>
-            {/* <button type="button" className="custom__button">
-              <a href="#menu">Explore Menu</a>
-            </button> */}
             <div className="app__header-buttons">
               <button type="button" className="custom__button">
                 <a href="#menu">Explore Menu</a>
@@ -53,10 +50,6 @@ const Header = ({ isInValidLocation }) => {
           </>
         )}
       </div>
-
-      {/* <div className="app__wrapper_img">
-        <img src={images.welcome} alt="header_img" />
-      </div> */}
     </div>
   );
 };
